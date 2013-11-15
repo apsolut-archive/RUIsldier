@@ -1,0 +1,46 @@
+/*
+CSS Style for:   decomSlider
+author:   apsolut for decom
+licence: apsolut 78waves
+ 
+
+/***    Produkcija Kodovi - izbrisati
+*/
+
+img {max-width:100%;}
+body {overflow:hidden; background:#000000;}
+
+
+/***    Homepage 
+*/
+.navbar-nav a {color:#0211af;}
+.navbar-nav .active a {background:#0211af; color:#FFF;}
+.nav > li > a:hover, .nav > li > a:focus {background:#0211af; color:#FFF;}
+.navbar-toggle .icon-bar {background:#01ffff;}
+.whyApsolut {color:#7F8C8D; position:fixed; bottom:0; left:0; padding:20px; z-index: 9999;}
+
+
+
+#Decom {  position: relative; max-width:600px; margin:0 auto;  } 
+#Decom .slide{    position: relative;    width: 100%;       top: 0;    z-index: 1;    opacity: 0.1;}
+#Decom img.slide{height: auto;}
+
+#Decom {
+    -webkit-animation: waves 1s alternate infinite;
+    -moz-animation: waves 1s alternate infinite;
+    -ms-animation: waves 1s alternate infinite;
+}
+
+@-webkit-keyframes waves {
+    0%   { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes waves  {
+    0%   { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+@-ms-keyframes waves  {
+    0%   { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
